@@ -16,7 +16,7 @@ public class Ejercicio3 {
             try {
                 System.out.println("indique un numero");
                 num = Double.parseDouble(leer.nextLine());
-                sb.append(num + " ");
+                sb.append(num).append(" ");
             } catch (NumberFormatException e) {
                 if (e.getMessage().equals("empty String")) {
                     System.err.println("ponga algo");

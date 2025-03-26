@@ -19,7 +19,7 @@ public class Ejercicio1 {
                 if (num < 0) {
                     break;
                 }
-                sb.append(num + " ");
+                sb.append(num).append(" ");
             } catch (NumberFormatException nfe) {
                 System.err.println(nfe.getMessage());
             }

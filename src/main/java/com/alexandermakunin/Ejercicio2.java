@@ -17,7 +17,7 @@ public class Ejercicio2 {
             try {
                 System.out.println("indique un numero");
                 num = Double.parseDouble(leer.nextLine());
-                sb.append(num + " ");
+                sb.append(num).append(" ");
             } catch (NumberFormatException nfe) {
                 countError++;
                 System.err.println(nfe.getMessage());
